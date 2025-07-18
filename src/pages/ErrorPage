@@ -1,0 +1,16 @@
+import NavBar from "../components/NavBar";
+
+function ErrorPage() {
+  return (
+    <>
+      <header>
+        <NavBar />
+      </header>
+      <main>
+        <h1>Oups ! On dirait qu'une erreur s'est produite.</h1>
+      </main>
+    </>
+  );
+}
+
+export default ErrorPage;
